@@ -1,0 +1,42 @@
+﻿:root {
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    height: 100%;
+    background-color: #000e27;
+    width: 100%;
+    height: 100%;
+    transition: background 0.1s;
+}
+
+    body:hover {
+        --active: 1;
+    }
+
+    body:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at calc(var(--x) * 1px) calc(var(--y) * 1px), hsl(0 0% 100% / 0.15), transparent 15vmin);
+        background-attachment: fixed;
+        opacity: var(--active, 0);
+        transition: opacity 0.2s;
+        pointer-events: none;
+        height: max-content;
+    }
+
+    body:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at calc(var(--x) * 1px) calc(var(--y) * 1px), hsl(0 0% 100% / 0.5), transparent 15vmin), transparent;
+        background-attachment: fixed;
+        pointer-events: none;
+        mask: linear-gradient(white, white) 50% 0 / 100% 4px no-repeat, linear-gradient(white, white) 50% 100% / 100% 4px no-repeat, linear-gradient(white, white) 0 50% / 4px 100% no-repeat, linear-gradient(white, white) 100% 50% / 4px 100% no-repeat;
+        height: max-content;
+    }
