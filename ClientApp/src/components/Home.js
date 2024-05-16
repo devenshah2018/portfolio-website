@@ -61,6 +61,9 @@ export class Home extends Component {
                         <li><a href="https://www.kaggle.com/devenashah" target="_blank">
                             <i class="fab fa-kaggle" tabindex="0" target="_blank"></i>
                         </a></li>
+                        <li><a href="mailto:devenshah2018@gmail.com" target="_blank">
+                            <i class="fa fa-envelope" tabindex="0" target="_blank"></i>
+                        </a></li>
                     </ul>
                 </div>
                 <div class="home-container">
@@ -68,10 +71,34 @@ export class Home extends Component {
                         <nav class="page-nav">
                             <a class="page-nav-item">Introduction</a>
                             <a class="page-nav-item">Experience</a>
-                            <a class="page-nav-item">Tech Stack</a>
                             <a class="page-nav-item">Projects</a>
-                            <a class="page-nav-item">Contact</a>
                         </nav>
+                        <div class="tech-stack">
+                            <div class="buffer"></div>
+                            <h5>Platforms/Frameworks</h5>
+                            <div class="tech-subsection">
+                                <ul class="tech-stack-list">
+                                    <li><img src={require('./azure.png')} /></li>
+                                    <li><img src={require('./salesforce.png')} /></li>
+                                    <li><img src={require('./aws.png')} /></li>
+                                    <li><img src={require('./angularjs.png')} /></li>
+                                    <li><img src={require('./react.png')} /></li>
+                                    <li><img src={require('./net.png')} /></li>
+                                    <li><img src={require('./flask.png')} /></li>
+                                </ul>
+                            </div>
+                            <h5>Languages/Frameworks</h5>
+                            <div class="tech-subsection">
+                                <ul class="tech-stack-list">
+                                    <li><img src={require('./cs.png')} /></li>
+                                    <li><img src={require('./python.png')} /></li>
+                                    <li><img src={require('./js.png')} /></li>
+                                    <li><img src={require('./html.png')} /></li>
+                                    <li><img src={require('./sql.png')} /></li>
+                                    <li><img src={require('./ts.png')} /></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="main-content">
                         <div class="introduction-paragraph section">
@@ -115,33 +142,6 @@ export class Home extends Component {
                                 </div>
                             </div>
                         </div> 
-                        <div class="section">
-                            <h1>Tech Stack</h1>
-                            <h2>Platforms/Frameworks</h2>
-                            <div class="tech-subsection">
-                                <ul class="tech-stack-list">
-                                    <li><img src={require('./azure.png')} /></li>
-                                    <li><img src={require('./salesforce.png')} /></li>
-                                    <li><img src={require('./aws.png')} /></li>
-                                    <li><img src={require('./angularjs.png')} /></li>
-                                    <li><img src={require('./react.png')} /></li>
-                                    <li><img src={require('./net.png')} /></li>
-                                    <li><img src={require('./flask.png')} /></li>
-                                </ul>
-                            </div>
-                            <h2>Languages/Frameworks</h2>
-                            <div class="tech-subsection">
-                                <ul class="tech-stack-list">
-                                    <li><img src={require('./cs.png')} /></li>
-                                    <li><img src={require('./python.png')} /></li>
-                                    <li><img src={require('./js.png')} /></li>
-                                    <li><img src={require('./html.png')} /></li>
-                                    <li><img src={require('./sql.png')} /></li>
-                                    <li><img src={require('./ts.png')} /></li>
-                                </ul>
-                            </div>
-                            
-                        </div>
                     </div>
                 </div>
             </div>
