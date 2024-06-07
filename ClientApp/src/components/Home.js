@@ -15,6 +15,7 @@ export class Home extends Component {
                 <Header />
                 <div class="home-container">
                     <div class="blade-container">
+                        { /*TODO: Upon clicking these nav options, automatically scroll to the section. */ }
                         <Navigation />
                         <TechStack />
                     </div>
@@ -22,6 +23,7 @@ export class Home extends Component {
                         <Introduction />
                         <div class="section">
                             <Experience />
+                            { /* TODO: Add project section. Map one:one for all public github repos (ensure each repo has a ReadMe.md). List each project, embed ReadMe.md preview in section, and use GitHub API to provide live commit updates.*/ }
                         </div> 
                     </div>
                 </div>

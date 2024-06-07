@@ -7,6 +7,7 @@ export class TechStack extends Component
     {
         return (
             <div>
+                { /*TODO: Upon hovering on these icons, say how many times it appears on my profile (experiences and projects). */ }
                 <div class="tech-stack">
                     <div class="buffer"></div>
                     <h5>Platforms/Frameworks</h5>
