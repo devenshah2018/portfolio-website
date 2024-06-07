@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddHttpClient();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -17,11 +17,23 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+});
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller}/{action=Index}/{id?}");
+app.UseAuthorization();
 
-app.MapFallbackToFile("index.html"); ;
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "api/{controller}/{action=Index}/{id?}");
+    endpoints.MapFallbackToFile("index.html");
+});
 
 app.Run();

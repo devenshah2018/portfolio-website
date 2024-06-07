@@ -1,0 +1,81 @@
+﻿.title-container {
+    position: relative;
+    height: fit-content;
+    margin-top: 10vh;
+    flex: 1 0 auto;
+    margin-bottom: 10vh;
+}
+
+.name-label {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.identity-labels {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline;
+    color: #f5f5f5;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid #f5f5f5;
+    white-space: nowrap;
+    width: 0;
+    color: #b3ffac;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 2rem;
+    width: fit-content;
+}
+
+    .social-media li {
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+
+
+.fab {
+    font-size: 3rem;
+}
+
+.fa-kaggle,
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+    .fa-linkedin:hover,
+    .fa-linkedin:focus {
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .fa-kaggle:hover,
+    .fa-kaggle:focus {
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .fa-github:hover,
+    .fa-github:focus {
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .fa-envelope:hover,
+    .fa-envelope:focus {
+        color: white;
+        transform: scale(1.1);
+    }
