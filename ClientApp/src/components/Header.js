@@ -51,18 +51,18 @@ export class Header extends Component
                     <div class="identity-labels">I am </div>
                     <div id="identity" class="identity-labels typed-out">{this.typingEffect(identities[index])}</div>
                     <ul class="social-media">
-                        <li><a href="https://www.linkedin.com/in/deven-a-shah/" target="_blank">
+                        <li><a href="https://www.linkedin.com/in/deven-a-shah/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-linkedin" tabindex="0"></i>
                         </a></li>
-                        <li><a href="https://github.com/devenshah2018" target="_blank" class="tool-tip">
+                        <li><a href="https://github.com/devenshah2018" target="_blank" rel="noopener noreferrer" class="tool-tip">
                             <i class="fab fa-github" tabindex="0"></i>
                             <span class="tooltiptext"></span>
                         </a></li>
-                        <li><a href="https://www.kaggle.com/devenashah" target="_blank">
-                            <i class="fab fa-kaggle" tabindex="0" target="_blank"></i>
+                        <li><a href="https://www.kaggle.com/devenashah" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-kaggle" tabindex="0" target="_blank" rel="noopener noreferrer"></i>
                         </a></li>
-                        <li><a href="mailto:devenshah2018@gmail.com" target="_blank">
-                            <i class="fa fa-envelope" tabindex="0" target="_blank"></i>
+                        <li><a href="mailto:devenshah2018@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-envelope" tabindex="0" target="_blank" rel="noopener noreferrer"></i>
                         </a></li>
                     </ul>
                 </div>
