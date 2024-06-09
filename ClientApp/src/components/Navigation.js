@@ -8,8 +8,8 @@ export class Navigation extends Component
         return (
             <div>
                 <nav class="page-nav">
-                    <a class="page-nav-item">Introduction</a>
-                    <a class="page-nav-item">Experience</a>
+                    <a class="page-nav-item" href="#Introduction">Introduction</a>
+                    <a class="page-nav-item" href="#Experience">Experience</a>
                     <a class="page-nav-item">Projects</a>
                 </nav>
             </div>

@@ -15,7 +15,6 @@ export class Home extends Component {
                 <Header />
                 <div class="home-container">
                     <div class="blade-container">
-                        { /*TODO: Upon clicking these nav options, automatically scroll to the section. */ }
                         <Navigation />
                         <TechStack />
                     </div>
