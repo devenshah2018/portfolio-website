@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.613d9c62.css",
+    "main.js": "/static/js/main.192bf9f4.js",
+    "static/js/787.27ca2965.chunk.js": "/static/js/787.27ca2965.chunk.js",
+    "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/aws.png": "/static/media/aws.c3a8553d2aadc3f80df7.png",
+    "static/media/cs.png": "/static/media/cs.a6602ea2f18ea996057c.png",
+    "static/media/html.png": "/static/media/html.2afff5652c23b3f3113e.png",
+    "static/media/ts.png": "/static/media/ts.659e4b9351cf1baa6930.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/react.png": "/static/media/react.e648a71158884495e955.png",
+    "static/media/net.png": "/static/media/net.27092a7d5dad2aa9d8ef.png",
+    "static/media/js.png": "/static/media/js.7f8751632b42a9932c15.png",
+    "static/media/angularjs.png": "/static/media/angularjs.cd720edf997e4b194c0a.png",
+    "static/media/sql.png": "/static/media/sql.ca204b1ec0fbf9b1d98a.png",
+    "static/media/flask.png": "/static/media/flask.0338dc304363bd3f6a51.png",
+    "index.html": "/index.html",
+    "main.613d9c62.css.map": "/static/css/main.613d9c62.css.map",
+    "main.192bf9f4.js.map": "/static/js/main.192bf9f4.js.map",
+    "787.27ca2965.chunk.js.map": "/static/js/787.27ca2965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613d9c62.css",
+    "static/js/main.192bf9f4.js"
+  ]
+}
