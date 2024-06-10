@@ -12,7 +12,7 @@ export class Home extends Component {
         return (
             <div>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-                <Header />
+                <div class="header-container"><Header /></div>
                 <div class="home-container">
                     <div class="blade-container">
                         <Navigation />
