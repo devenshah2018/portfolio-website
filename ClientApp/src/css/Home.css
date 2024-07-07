@@ -28,6 +28,9 @@ html {
     position: relative;
     grid-row: 1;
     grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .section {

@@ -10,7 +10,7 @@ export class Navigation extends Component
                 <nav class="page-nav">
                     <a class="page-nav-item" href="#Introduction">Introduction</a>
                     <a class="page-nav-item" href="#Experience">Experience</a>
-                    <a class="page-nav-item" href="#Experience">Projects</a>
+                    <a class="page-nav-item" href="#Projects">Projects</a>
                 </nav>
             </div>
         );
