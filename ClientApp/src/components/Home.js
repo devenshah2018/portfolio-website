@@ -4,6 +4,7 @@ import { Experience } from './Experience';
 import { Header } from './Header';
 import { Introduction } from './Introduction';
 import { Navigation } from './Navigation';
+import { Projects } from './Projects';
 import { TechStack } from './TechStack';
 
 export class Home extends Component {
@@ -22,8 +23,11 @@ export class Home extends Component {
                         <Introduction />
                         <div class="section">
                             <Experience />
-                            { /* TODO: Add project section. Map one:one for all public github repos (ensure each repo has a ReadMe.md). List each project, embed ReadMe.md preview in section, and use GitHub API to provide live commit updates.*/ }
                         </div> 
+                        <div class="section">
+                            <Projects />
+                            { /* TODO: Add project section. Map one:one for all public github repos (ensure each repo has a ReadMe.md). List each project, embed ReadMe.md preview in section, and use GitHub API to provide live commit updates.*/}
+                        </div>
                     </div>
                 </div>
             </div>
